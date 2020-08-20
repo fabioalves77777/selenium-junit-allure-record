@@ -45,7 +45,7 @@ public class DriverBase extends AcaoBase {
 			this.driver = new FirefoxDriver();
 			this.driver.manage().window().maximize();
 		} else if (configuracao.getNavegador().equals(EnumNavegador.CHROME)) {
-			for (int versionChrome = 80; versionChrome >= 72; versionChrome--) {
+			for (int versionChrome = 84; versionChrome >= 72; versionChrome--) {
 				try {
 					WebDriverManager.chromedriver().version(Integer.toString(versionChrome)).setup();
 					ChromeOptions options = new ChromeOptions();
@@ -73,7 +73,7 @@ public class DriverBase extends AcaoBase {
 			this.driver = new FirefoxDriver();
 			this.driver.manage().window().maximize();
 		} else if (configuracao.getNavegador().equals(EnumNavegador.CHROME)) {
-			for (int versionChrome = 80; versionChrome >= 72; versionChrome--) {
+			for (int versionChrome = 84; versionChrome >= 72; versionChrome--) {
 				try {
 					System.setProperty("webdriver.chrome.driver", Utilitario.CaminhoProjeto + "\\drivers\\chromedriver_" + versionChrome + ".exe");
 					ChromeOptions options = new ChromeOptions();
