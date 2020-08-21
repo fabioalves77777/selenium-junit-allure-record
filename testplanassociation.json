@@ -1,0 +1,17 @@
+[
+  {
+    "className": "br.com.nameproject.scenario.mantercadastro.CT_ManterCadastro_ValidarCamposObrigatorios",
+    "methodName": "validarCamposObrigatorios",
+    "workItemID": 31
+  },
+  {
+    "className": "br.com.nameproject.scenario.mantercadastro.CT_ManterCadastro_ValidarRegistroDuplicado",
+    "methodName": "validarRegistroDuplicado",
+    "workItemID": 32
+  },
+  {
+    "className": "br.com.nameproject.scenario.mantercadastro.CT_ManterCadastro_RealizarCadastro",
+    "methodName": "realizarCadastroUsuario",
+    "workItemID": 33
+  }
+]
