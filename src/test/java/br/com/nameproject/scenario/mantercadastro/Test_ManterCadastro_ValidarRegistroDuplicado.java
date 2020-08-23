@@ -18,7 +18,7 @@ import io.qameta.allure.Feature;
 import io.qameta.allure.Story;
 
 @Feature("Manter Cadastro")
-public class CT_ManterCadastro_RealizarCadastro {
+public class Test_ManterCadastro_ValidarRegistroDuplicado {
 
 	@Rule
 	public VideoBase video = new VideoBase();
@@ -36,14 +36,13 @@ public class CT_ManterCadastro_RealizarCadastro {
 	}
 	
 	@Test
-	@Story("Cadastrar Usuário")
-	@Video(name = "Manter Cadastro - Cadastrar Usuário")
-	@Description("Caso de teste para realizar o cadastramento do usuário")
-	public void realizarCadastroUsuario() {		
+	@Story("Validar Registro Duplicado")
+	@Video(name = "Manter Cadastro - Validar registro duplicado")
+	@Description("Caso de teste para realizar a validação de registro duplicado")
+	public void validarRegistroDuplicado() {		
 		paginaLogin.acessarPaginaLogin(configuracao.getAmbiente());
 		paginaCadastro = paginaLogin.acessarCadastroUsuario();	
-		paginaCadastro.cadastrarUsuario(user.getNome(), user.getEmailCadastro(), user.getSenha());
-		paginaCadastro.verificarUsuarioCadastradoComSucesso();
+		paginaCadastro.validarRegistroDuplicado(user.getNome(), user.getEmail(), user.getSenha());
 	}
 	
 	@After

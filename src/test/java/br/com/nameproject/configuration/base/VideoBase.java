@@ -35,7 +35,7 @@ public class VideoBase extends TestWatcher {
     @Override
     protected void succeeded(Description description) {
         File video = stopRecording(getFileName(description));
-        doVideoProcessing(false, video);
+        doVideoProcessing(true, video);
     }
 
     /**

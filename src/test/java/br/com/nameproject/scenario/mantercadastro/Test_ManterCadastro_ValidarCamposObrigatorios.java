@@ -10,7 +10,6 @@ import com.automation.remarks.video.annotations.Video;
 import br.com.nameproject.configuration.base.DriverBase;
 import br.com.nameproject.configuration.base.VideoBase;
 import br.com.nameproject.configuration.models.ConfiguracaoAmbiente;
-import br.com.nameproject.configuration.models.Usuario;
 import br.com.nameproject.paginas.PaginaCadastro;
 import br.com.nameproject.paginas.PaginaLogin;
 import io.qameta.allure.Description;
@@ -18,13 +17,12 @@ import io.qameta.allure.Feature;
 import io.qameta.allure.Story;
 
 @Feature("Manter Cadastro")
-public class CT_ManterCadastro_ValidarRegistroDuplicado {
+public class Test_ManterCadastro_ValidarCamposObrigatorios {
 
 	@Rule
 	public VideoBase video = new VideoBase();
 	public ConfiguracaoAmbiente configuracao;
 	public DriverBase driver;	
-	public Usuario user = new Usuario();
 	public PaginaLogin paginaLogin;
 	public PaginaCadastro paginaCadastro;
 	
@@ -36,13 +34,13 @@ public class CT_ManterCadastro_ValidarRegistroDuplicado {
 	}
 	
 	@Test
-	@Story("Validar Registro Duplicado")
-	@Video(name = "Manter Cadastro - Validar registro duplicado")
-	@Description("Caso de teste para realizar a validação de registro duplicado")
-	public void validarRegistroDuplicado() {		
+	@Story("Validar Campos Obrigatórios")
+	@Video(name = "Manter Cadastro - Validar campos obrigatórios")
+	@Description("Caso de teste para realizar a validação de campos obrigatórios")
+	public void validarCamposObrigatorios() {		
 		paginaLogin.acessarPaginaLogin(configuracao.getAmbiente());
 		paginaCadastro = paginaLogin.acessarCadastroUsuario();	
-		paginaCadastro.validarRegistroDuplicado(user.getNome(), user.getEmail(), user.getSenha());
+		paginaCadastro.validarCamposObrigatorios();
 	}
 	
 	@After

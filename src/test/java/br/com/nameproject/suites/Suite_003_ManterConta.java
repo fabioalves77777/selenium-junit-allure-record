@@ -26,6 +26,6 @@ import br.com.nameproject.scenario.manterconta.CT_ManterConta_ExcluirConta_Valid
 	CT_ManterConta_ExcluirConta_ValidarContaComMovimentacao.class,
 	CT_ManterConta_ExcluirConta.class
 })
-public class TestSuite_003_ManterConta {
+public class Suite_003_ManterConta {
 
 }

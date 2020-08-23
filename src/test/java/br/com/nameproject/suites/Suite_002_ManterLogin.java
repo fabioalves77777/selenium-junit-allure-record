@@ -14,6 +14,6 @@ import br.com.nameproject.scenario.manterlogin.CT_ManterLogin_ValidarCamposObrig
 	CT_ManterLogin_ValidarLoginInvalido.class,
 	CT_ManterLogin_RealizarLogin.class
 })
-public class TestSuite_002_ManterLogin {
+public class Suite_002_ManterLogin {
 
 }
