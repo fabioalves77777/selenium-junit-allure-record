@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: br.com.nameproject.scenario.mantercadastro.Test_ManterCadastro_RealizarCadastro
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 60.603 s - in br.com.nameproject.scenario.mantercadastro.Test_ManterCadastro_RealizarCadastro

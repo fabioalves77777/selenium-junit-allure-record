@@ -1,5 +1,4 @@
 C:\eclipse\workspace\selenium-junit-allure-record\src\test\java\br\com\nameproject\paginas\PaginaResumoMensal.java
-C:\eclipse\workspace\selenium-junit-allure-record\src\test\java\br\com\nameproject\scenario\mantercadastro\Test_CT_ManterCadastro_ValidarCamposObrigatorios.java
 C:\eclipse\workspace\selenium-junit-allure-record\src\test\java\br\com\nameproject\suites\Suite_001_ManterCadastro.java
 C:\eclipse\workspace\selenium-junit-allure-record\src\test\java\br\com\nameproject\scenario\manterlogin\CT_ManterLogin_RealizarLogin.java
 C:\eclipse\workspace\selenium-junit-allure-record\src\test\java\br\com\nameproject\configuration\models\ConfiguracaoAmbiente.java
@@ -8,16 +7,15 @@ C:\eclipse\workspace\selenium-junit-allure-record\src\test\java\br\com\nameproje
 C:\eclipse\workspace\selenium-junit-allure-record\src\test\java\br\com\nameproject\scenario\manterconta\CT_ManterConta_AlterarConta.java
 C:\eclipse\workspace\selenium-junit-allure-record\src\test\java\br\com\nameproject\configuration\base\VideoBase.java
 C:\eclipse\workspace\selenium-junit-allure-record\src\test\java\br\com\nameproject\paginas\PaginaInicial.java
-C:\eclipse\workspace\selenium-junit-allure-record\src\test\java\br\com\nameproject\scenario\mantercadastro\Test_CT_ManterCadastro_ValidarRegistroDuplicado.java
 C:\eclipse\workspace\selenium-junit-allure-record\src\test\java\br\com\nameproject\scenario\manterconta\CT_ManterConta_ExcluirConta.java
 C:\eclipse\workspace\selenium-junit-allure-record\src\test\java\br\com\nameproject\configuration\suporte\Utilitario.java
 C:\eclipse\workspace\selenium-junit-allure-record\src\test\java\br\com\nameproject\paginas\PaginaCadastro.java
 C:\eclipse\workspace\selenium-junit-allure-record\src\test\java\br\com\nameproject\paginas\PaginaContaListar.java
 C:\eclipse\workspace\selenium-junit-allure-record\src\test\java\br\com\nameproject\scenario\manterconta\CT_ManterConta_AdicionarConta_ValidarRegistroDuplicado.java
 C:\eclipse\workspace\selenium-junit-allure-record\src\test\java\br\com\nameproject\configuration\suporte\EnumHabilitar.java
+C:\eclipse\workspace\selenium-junit-allure-record\src\test\java\br\com\nameproject\scenario\mantercadastro\Test_ManterCadastro_RealizarCadastro.java
 C:\eclipse\workspace\selenium-junit-allure-record\src\test\java\br\com\nameproject\scenario\manterlogin\CT_ManterLogin_ValidarCamposObrigatorios.java
 C:\eclipse\workspace\selenium-junit-allure-record\src\test\java\br\com\nameproject\configuration\base\AcaoBase.java
-C:\eclipse\workspace\selenium-junit-allure-record\src\test\java\br\com\nameproject\scenario\mantercadastro\Test_CT_ManterCadastro_RealizarCadastro.java
 C:\eclipse\workspace\selenium-junit-allure-record\src\test\java\br\com\nameproject\scenario\manterconta\CT_ManterConta_AdicionarConta.java
 C:\eclipse\workspace\selenium-junit-allure-record\src\test\java\br\com\nameproject\scenario\manterconta\CT_ManterConta_ExcluirConta_ValidarContaComMovimentacao.java
 C:\eclipse\workspace\selenium-junit-allure-record\src\test\java\br\com\nameproject\configuration\models\Usuario.java
@@ -28,9 +26,11 @@ C:\eclipse\workspace\selenium-junit-allure-record\src\test\java\br\com\nameproje
 C:\eclipse\workspace\selenium-junit-allure-record\src\test\java\br\com\nameproject\paginas\PaginaContaAlterar.java
 C:\eclipse\workspace\selenium-junit-allure-record\src\test\java\br\com\nameproject\scenario\manterlogin\CT_ManterLogin_ValidarLoginInvalido.java
 C:\eclipse\workspace\selenium-junit-allure-record\src\test\java\br\com\nameproject\configuration\suporte\EnumAmbiente.java
+C:\eclipse\workspace\selenium-junit-allure-record\src\test\java\br\com\nameproject\scenario\mantercadastro\Test_ManterCadastro_ValidarCamposObrigatorios.java
 C:\eclipse\workspace\selenium-junit-allure-record\src\test\java\br\com\nameproject\configuration\models\Conta.java
 C:\eclipse\workspace\selenium-junit-allure-record\src\test\java\br\com\nameproject\configuration\base\TableBase.java
 C:\eclipse\workspace\selenium-junit-allure-record\src\test\java\br\com\nameproject\suites\Suite_002_ManterLogin.java
+C:\eclipse\workspace\selenium-junit-allure-record\src\test\java\br\com\nameproject\scenario\mantercadastro\Test_ManterCadastro_ValidarRegistroDuplicado.java
 C:\eclipse\workspace\selenium-junit-allure-record\src\test\java\br\com\nameproject\paginas\PaginaContaIncluir.java
 C:\eclipse\workspace\selenium-junit-allure-record\src\test\java\br\com\nameproject\suites\Suite_003_ManterConta.java
 C:\eclipse\workspace\selenium-junit-allure-record\src\test\java\br\com\nameproject\configuration\base\DriverBase.java

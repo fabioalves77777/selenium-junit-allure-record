@@ -1,11 +1,12 @@
+br\com\nameproject\scenario\mantercadastro\Test_ManterCadastro_RealizarCadastro.class
 br\com\nameproject\configuration\models\Mensagens.class
 br\com\nameproject\paginas\PaginaContaAlterar.class
 br\com\nameproject\paginas\PaginaContaListar.class
-br\com\nameproject\scenario\mantercadastro\Test_CT_ManterCadastro_RealizarCadastro.class
+br\com\nameproject\scenario\mantercadastro\Test_ManterCadastro_ValidarCamposObrigatorios.class
+br\com\nameproject\scenario\mantercadastro\Test_ManterCadastro_ValidarRegistroDuplicado.class
 br\com\nameproject\scenario\manterconta\CT_ManterConta_ExcluirConta.class
 br\com\nameproject\configuration\models\ConfiguracaoAmbiente.class
 br\com\nameproject\configuration\base\TableBase.class
-br\com\nameproject\scenario\mantercadastro\Test_CT_ManterCadastro_ValidarRegistroDuplicado.class
 br\com\nameproject\configuration\suporte\Utilitario.class
 br\com\nameproject\scenario\manterconta\CT_ManterConta_AlterarConta_ValidarRegistroDuplicado.class
 br\com\nameproject\paginas\PaginaCadastro.class
@@ -23,7 +24,6 @@ br\com\nameproject\paginas\PaginaInicial.class
 br\com\nameproject\paginas\PaginaContaIncluir.class
 br\com\nameproject\scenario\manterconta\CT_ManterConta_AdicionarConta.class
 br\com\nameproject\configuration\models\Usuario.class
-br\com\nameproject\scenario\mantercadastro\Test_CT_ManterCadastro_ValidarCamposObrigatorios.class
 br\com\nameproject\suites\Suite_001_ManterCadastro.class
 br\com\nameproject\configuration\base\AcaoBase$1.class
 br\com\nameproject\scenario\manterconta\CT_ManterConta_AdicionarConta_ValidarRegistroDuplicado.class
