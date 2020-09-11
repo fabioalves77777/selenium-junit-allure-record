@@ -12,8 +12,6 @@ public class ConfiguracaoAmbiente {
 
 	public Enum<?> navegador;
 	public Enum<?> ambiente;
-	public static final String Url = "https://seubarriga.wcaquino.me/login";
-	public static final String UrlCliente = "https://seubarriga.wcaquino.me/login";
 
 	public void setNavegador(Enum<?> Navegador) {
 		this.navegador = Navegador;

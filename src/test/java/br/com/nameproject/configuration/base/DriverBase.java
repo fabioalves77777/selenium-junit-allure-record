@@ -1,5 +1,7 @@
 package br.com.nameproject.configuration.base;
 
+import java.net.URL;
+
 import org.junit.Assert;
 import org.openqa.selenium.SessionNotCreatedException;
 import org.openqa.selenium.WebDriver;
@@ -24,7 +26,7 @@ public class DriverBase extends AcaoBase {
 		instanciarDriverManual(configuracao);
 	}
 
-	public void navegar(String url) {
+	public void navegar(URL url) {
 		this.driver.navigate().to(url);
 	}
 

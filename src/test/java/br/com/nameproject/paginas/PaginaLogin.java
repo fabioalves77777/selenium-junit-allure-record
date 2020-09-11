@@ -1,10 +1,12 @@
 package br.com.nameproject.paginas;
 
+import java.net.MalformedURLException;
+import java.net.URL;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 import br.com.nameproject.configuration.base.DriverBase;
-import br.com.nameproject.configuration.models.ConfiguracaoAmbiente;
 import br.com.nameproject.configuration.models.Mensagens;
 import br.com.nameproject.configuration.suporte.EnumAmbiente;
 import io.qameta.allure.Step;
@@ -18,9 +20,17 @@ public class PaginaLogin extends DriverBase {
 	@Step("Acessar a página de login")
 	public void acessarPaginaLogin(Enum<?> ambiente) {
 		if (ambiente.equals(EnumAmbiente.LOCAL))
-			navegar(ConfiguracaoAmbiente.Url);	
+			try {
+				navegar(new URL("https://seubarriga.wcaquino.me/login"));
+			} catch (MalformedURLException e) {
+				e.printStackTrace();
+			}
 		else if (ambiente.equals(EnumAmbiente.CLIENTE))
-			navegar(ConfiguracaoAmbiente.UrlCliente);	
+			try {
+				navegar(new URL("https://seubarriga.wcaquino.me/login"));
+			} catch (MalformedURLException e) {
+				e.printStackTrace();
+			}	
 		screenshot(driver());
 		elementoExiste(driver(), By.id("email"), "Erro ao acessar a página de autenticação");
 	}
